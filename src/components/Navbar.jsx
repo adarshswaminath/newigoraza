@@ -18,7 +18,7 @@ function Navbar() {
   };
 
   return (
-    <div className="text-[#1d3557] flex items-center justify-between px-2 lg:px-12 p-3">
+    <div className="text-[#1d3557] sticky bg-white/2 bg:blur backdrop-blur top-0 right-0 flex items-center justify-between px-2 lg:px-12 p-3">
       <div className="logo">
         <img
           src={logo}
