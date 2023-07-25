@@ -47,14 +47,14 @@ function Navbar() {
             variants={menuVariants}
             className="absolute top-16 right-2 bg-white shadow-md rounded-lg p-4 z-10"
           >
-            <a href="#" className="block py-2" onClick={toggleIconState}>
+            <a href="/" className="block py-2" onClick={toggleIconState}>
               Home
             </a>
-            <a href="#" className="block py-2" onClick={toggleIconState}>
+            <a href="#consultancy" className="block py-2" onClick={toggleIconState}>
               Features
             </a>
-            <a href="#" className="block py-2" onClick={toggleIconState}>
-              Community
+            <a href="products" className="block py-2" onClick={toggleIconState}>
+              Products
             </a>
             <a href="#" className="block py-2" onClick={toggleIconState}>
               Blog
@@ -77,9 +77,9 @@ function Navbar() {
       </div>
       {/* for lg view */}
       <div className="hidden lg:flex items-center space-x-4 text-[#1d3557]">
-        <a href="#">Home</a>
-        <a href="#">Features</a>
-        <a href="#">Community</a>
+        <a href="/">Home</a>
+        <a href="#consultancy">Features</a>
+        <a href="#products">Products</a>
         <a href="#">Blog</a>
         <a href="#">Pricing</a>
         <a href="#">

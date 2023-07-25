@@ -18,7 +18,7 @@ const Card = ({title,caption}) => {
 
 function Consultancy() {
   return (
-    <div className="p-4 md:p-8 lg:p-12 xl:p-16 bg-gray-50">
+    <div className="p-4 md:p-8 lg:p-12 xl:p-16 bg-gray-50" id="consultancy">
       <div className="grid  lg:flex">
         {/* first section opens */}
         <div className="w-full lg:w-1/2">
